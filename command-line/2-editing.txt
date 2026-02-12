@@ -1,1 +1,14 @@
+(venv) root@deepnote:~/work # cd scientific_programming_prem
+bash: cd: scientific_programming_prem: No such file or directory
+(venv) root@deepnote:~/work # cd scientific_programming_Prem_thakkar
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar # touch notes.txt
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar # vi notes.txt
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar # cat notes.txt
 
+This is my first file created in the terminal
+
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar # touch shopping_list.txt
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar # vi shopping_list.txt
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar # cat shopping_list.txt
+apples,bread,milk,coffee
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar #

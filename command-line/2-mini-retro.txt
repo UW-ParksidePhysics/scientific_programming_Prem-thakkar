@@ -1,17 +1,17 @@
-Partner:
+Partner:Austin Jakes
 
-What Went Well
+What Went Well: we can complete that assigenment on time.
 ---
 
 
-What Would Make Next Time 1% Better
+What Would Make Next Time 1% Better: Enhace typing skill and computer were slow
 ---
-* Focus:
+* Focus:100%
 
-* Communication:
+* Communication: good
 
-* Pacing:
+* Pacing: 10/10
 
-* Division of responsibility
+* Division of responsibility : equal
 
-* Code quality:
+* Code quality: Average
