@@ -1,1 +1,57 @@
-
+(venv) root@deepnote:~/work # pwd
+/root/work
+(venv) root@deepnote:~/work # ls
+example.txt  scientific_programming_Prem_thakkar  untitled
+(venv) root@deepnote:~/work # ls
+example.txt  scientific_programming_Prem_thakkar  untitled
+(venv) root@deepnote:~/work # ls -a
+.  ..  example.txt  scientific_programming_Prem_thakkar  untitled
+(venv) root@deepnote:~/work # ls -la
+total 8
+drwxrwxrwx. 1 root users 4096 Jan  1  1970 .
+drwxrwsrwx. 3 root users   28 Feb 13 01:11 ..
+-rw-r--r--. 1 root users    0 Feb 10 15:08 example.txt
+drwxr-xr-x. 1 root users 4096 Jan  1  1970 scientific_programming_Prem_thakkar
+-rw-r-----. 1 root users    0 Feb 12 14:42 untitled
+(venv) root@deepnote:~/work # ls -1
+example.txt
+scientific_programming_Prem_thakkar
+untitled
+(venv) root@deepnote:~/work # pwd
+/root/work
+(venv) root@deepnote:~/work # cd scientific_programming_Prem_thakkar/
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar # pwd
+/root/work/scientific_programming_Prem_thakkar
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar # cd work
+bash: cd: work: No such file or directory
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar # ls -la
+total 22
+drwxr-xr-x. 1 root users 4096 Jan  1  1970 .
+drwxrwxrwx. 1 root users 4096 Jan  1  1970 ..
+drwxr-xr-x. 1 root users 4096 Jan  1  1970 command-line
+drwxr-xr-x. 1 root users 4096 Jan  1  1970 .git
+-rw-r--r--. 1 root users   48 Feb 12 14:48 notes.txt
+drwxr-xr-x. 1 root users 4096 Jan  1  1970 python
+-rw-r-----. 1 root users  119 Feb  5 02:49 README.md
+-rw-r--r--. 1 root users   25 Feb 12 14:55 shopping_list.txt
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar # pwd
+/root/work/scientific_programming_Prem_thakkar
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar # cd ~
+(venv) root@deepnote:~ # cd ~
+(venv) root@deepnote:~ # ls ~
+venv  work
+(venv) root@deepnote:~ # (cd)
+(venv) root@deepnote:~ # echo ~
+/root
+(venv) root@deepnote:~ # ls -la
+total 12
+drwx------. 1 root root  89 Feb 13 01:11 .
+drwxr-xr-x. 1 root root 156 Feb 13 01:11 ..
+-rw-r--r--. 1 root root 571 Apr 10  2021 .bashrc
+drwxr-xr-x. 3 root root  24 Feb 13 01:11 .config
+drwxr-xr-x. 2 root root  24 Feb 13 01:11 .keras
+drwxr-xr-x. 3 root root  19 Feb 13 01:11 .local
+-rw-r--r--. 1 root root 648 Feb 13 01:11 .profile
+drwxr-xr-x. 1 root root  28 Jan 22 13:17 venv
+-rw-r--r--. 1 root root 169 Jan 22 13:05 .wget-hsts
+lrwxrwxrwx. 1 root root   5 Feb 13 01:11 work -> /work

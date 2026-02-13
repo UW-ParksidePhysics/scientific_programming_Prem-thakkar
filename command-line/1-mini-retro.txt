@@ -1,8 +1,8 @@
-Partner:
+Partner: Prem
 
 What Went Well
 ---
-
+I easily copy text from terminal
 
 What Would Make Next Time 1% Better
 ---
@@ -10,8 +10,8 @@ What Would Make Next Time 1% Better
 
 * Communication:
 
-* Pacing:
+* Pacing: Initial I was facing problem to write down in terminal due to lacking
 
 * Division of responsibility
 
-* Code quality:
+* Code quality: bit error in my terminal
