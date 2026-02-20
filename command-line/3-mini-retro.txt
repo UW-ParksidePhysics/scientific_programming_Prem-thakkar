@@ -1,17 +1,17 @@
-Partner:
+Partner: Nolan
 
-What Went Well
+What Went Well: Intinial facing problem in practice but after that it went well in challenge
 ---
 
 
-What Would Make Next Time 1% Better
+What Would Make Next Time 1% Better: Read carefully 
 ---
-* Focus:
+* Focus: 08/10
 
-* Communication:
+* Communication: bit
 
 * Pacing:
 
-* Division of responsibility
+* Division of responsibility: equal
 
 * Code quality:

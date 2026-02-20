@@ -1,2 +1,5 @@
-# Concepts
+# Concepts 
+# Directory
+* Redirection
+* Shell
 * 

@@ -1,1 +1,100 @@
-
+(venv) root@deepnote:~/work # ls
+example.txt  scientific_programming_Prem_thakkar  untitled
+(venv) root@deepnote:~/work # cd scientific_programming_Prem_thakkar/command-line/
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # ls 
+10-CONCEPTS.md      2-editing.txt     4-directories.txt  6-mini-retro.txt  8-mini-retro.txt
+10-mini-retro.txt   2-mini-retro.txt  4-mini-retro.txt   6-searching.txt   8-redirection.txt
+1-CONCEPTS.md       3-CONCEPTS.md     5-CONCEPTS.md      7-CONCEPTS.md     9-CONCEPTS.md
+1-introduction.txt  3-files.txt       5-mini-retro.txt   7-mini-retro.txt  9-mini-retro.txt
+1-mini-retro.txt    3-mini-retro.txt  5-permissions.txt  7-processes.txt   9-vi.txt
+2-CONCEPTS.md       4-CONCEPTS.md     6-CONCEPTS.md      8-CONCEPTS.md
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # 3-file.txt
+bash: 3-file.txt: command not found
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # 3-file.txt backup_file.txt
+bash: 3-file.txt: command not found
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # cp 3-file backup_file.txt
+cp: cannot stat '3-file': No such file or directory
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # touch shopping.txt
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # touch shopping_list.txt
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # ls
+10-CONCEPTS.md      3-CONCEPTS.md      5-permissions.txt  8-mini-retro.txt
+10-mini-retro.txt   3-files.txt        6-CONCEPTS.md      8-redirection.txt
+1-CONCEPTS.md       3-mini-retro.txt   6-mini-retro.txt   9-CONCEPTS.md
+1-introduction.txt  4-CONCEPTS.md      6-searching.txt    9-mini-retro.txt
+1-mini-retro.txt    4-directories.txt  7-CONCEPTS.md      9-vi.txt
+2-CONCEPTS.md       4-mini-retro.txt   7-mini-retro.txt   shopping_list.txt
+2-editing.txt       5-CONCEPTS.md      7-processes.txt    shopping.txt
+2-mini-retro.txt    5-mini-retro.txt   8-CONCEPTS.md
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # rm shopping.txt
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # cat 3-files.txt 
+(venv) root@deepnote:~/work # cd command-line
+bash: cd: command-line: No such file or directory
+(venv) root@deepnote:~/work # ls
+example.txt  scientific_programming_Prem_thakkar  untitled
+(venv) root@deepnote:~/work # cd scientific_programming_Prem_thakkar/
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar # ls
+command-line  notes.txt  python  README.md  shopping_list.txt
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar # cd command-line/
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # cp 3-files.txtbackup_files.txt
+cp: missing destination file operand after '3-files.txtbackup_files.txt'
+Try 'cp --help' for more information.
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # ^C
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # c
+c++                        chpasswd                   conjure-im6.q16
+c89                        chroot                     continue
+c89-gcc                    chrt                       convert
+c99                        chsh                       convert-caffe2-to-onnx
+c99-gcc                    circo                      convert-im6
+caller                     ckeygen                    convert-im6.q16
+captoinfo                  cksum                      convert-onnx-to-caffe2
+case                       clear                      coproc
+cat                        clear_console              corelist
+catchsegv                  cluster                    cp
+cc                         cmake                      cpack
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # c^C
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # cp 3-files.txt backup_files
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # mv backup_files.txt renamed_files.txt
+mv: cannot stat 'backup_files.txt': No such file or directory
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # practice_directory
+bash: practice_directory: command not found
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # ls
+10-CONCEPTS.md      2-editing.txt     4-directories.txt  6-mini-retro.txt  8-mini-retro.txt
+10-mini-retro.txt   2-mini-retro.txt  4-mini-retro.txt   6-searching.txt   8-redirection.txt
+1-CONCEPTS.md       3-CONCEPTS.md     5-CONCEPTS.md      7-CONCEPTS.md     9-CONCEPTS.md
+1-introduction.txt  3-files.txt       5-mini-retro.txt   7-mini-retro.txt  9-mini-retro.txt
+1-mini-retro.txt    3-mini-retro.txt  5-permissions.txt  7-processes.txt   9-vi.txt
+2-CONCEPTS.md       4-CONCEPTS.md     6-CONCEPTS.md      8-CONCEPTS.md     shopping_list.txt
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # cp 3-files.txt
+backup_files.txt
+cp: missing destination file operand after '3-files.txtbackup_files.txt'
+Try 'cp --help' for more information.
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # cp 3-files.txt backup_files.txt
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # mv backup_files.txt renamed_files.txt
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # rm renamed_files.txt
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # ls
+10-CONCEPTS.md      2-editing.txt     4-directories.txt  6-mini-retro.txt  8-mini-retro.txt
+10-mini-retro.txt   2-mini-retro.txt  4-mini-retro.txt   6-searching.txt   8-redirection.txt
+1-CONCEPTS.md       3-CONCEPTS.md     5-CONCEPTS.md      7-CONCEPTS.md     9-CONCEPTS.md
+1-introduction.txt  3-files.txt       5-mini-retro.txt   7-mini-retro.txt  9-mini-retro.txt
+1-mini-retro.txt    3-mini-retro.txt  5-permissions.txt  7-processes.txt   9-vi.txt
+2-CONCEPTS.md       4-CONCEPTS.md     6-CONCEPTS.md      8-CONCEPTS.md     shopping_list.txt
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # practice_directory
+bash: practice_directory: command not found
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # shopping_list.txt
+bash: shopping_list.txt: command not found
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # mkdir practice_directory
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # mv shopping_list.txt practice_directory
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # 'practice_directory'
+bash: practice_directory: command not found
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # ls -R practice_directory
+practice_directory:
+shopping_list.txt
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # rm -r practice_directory
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line # ls
+10-CONCEPTS.md      2-editing.txt     4-directories.txt  6-mini-retro.txt  8-mini-retro.txt
+10-mini-retro.txt   2-mini-retro.txt  4-mini-retro.txt   6-searching.txt   8-redirection.txt
+1-CONCEPTS.md       3-CONCEPTS.md     5-CONCEPTS.md      7-CONCEPTS.md     9-CONCEPTS.md
+1-introduction.txt  3-files.txt       5-mini-retro.txt   7-mini-retro.txt  9-mini-retro.txt
+1-mini-retro.txt    3-mini-retro.txt  5-permissions.txt  7-processes.txt   9-vi.txt
+2-CONCEPTS.md       4-CONCEPTS.md     6-CONCEPTS.md      8-CONCEPTS.md
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/command-line #
