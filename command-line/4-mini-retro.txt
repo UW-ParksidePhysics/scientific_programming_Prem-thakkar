@@ -1,17 +1,17 @@
-Partner:
+Partner: Prem  
 
 What Went Well
----
+I finsh that assiegnmemt late but I compelete it proply with understanding
 
 
 What Would Make Next Time 1% Better
 ---
-* Focus:
+* Focus:10/10
 
-* Communication:
+* Communication:10/10
 
-* Pacing:
+* Pacing:10/10
 
-* Division of responsibility
+* Division of responsibility: I did it by my self
 
-* Code quality:
+* Code quality: ~90

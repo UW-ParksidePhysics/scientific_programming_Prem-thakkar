@@ -1,1 +1,24 @@
-
+(venv) root@deepnote:~/work # echo '#!/bin/sh\echo "Hello, world!"' > script.sh
+(venv) root@deepnote:~/work # ./scripts.sh
+bash: ./scripts.sh: No such file or directory
+(venv) root@deepnote:~/work # chmod o-w
+chmod: missing operand after ‘o-w’
+Try 'chmod --help' for more information.
+(venv) root@deepnote:~/work # chmod o-w scripts.sh
+chmod: cannot access 'scripts.sh': No such file or directory
+(venv) root@deepnote:~/work # sudo chown Prem_thakkar scripts.sh
+chown: invalid user: ‘Prem_thakkar’
+(venv) root@deepnote:~/work # ls -l
+total 9
+-rw-r--r--. 1 root users    0 Feb 10 15:08 example.txt
+drwxr-xr-x. 1 root users 4096 Feb 27 01:23 lesson4-practice
+-rwxr-----. 1 root users    0 Mar  9 17:14 notes.txt
+drwxr-xr-x. 1 root users 4096 Jan  1  1970 scientific_programming_Prem_thakkar
+-rw-r--r--. 1 root users   31 Mar  9 19:01 script.sh
+-rw-r-----. 1 root users    0 Feb 12 14:42 untitled
+(venv) root@deepnote:~/work # echo '#!/bin/sh\necho "Hello, world!"' > scripts.sh
+(venv) root@deepnote:~/work # 
+(venv) root@deepnote:~/work # 
+(venv) root@deepnote:~/work # rm scripts.sh
+(venv) root@deepnote:~/work # ^C
+(venv) root@deepnote:~/work # 

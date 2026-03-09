@@ -1,1 +1,12 @@
-
+(venv) root@deepnote:~/work # mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+(venv) root@deepnote:~/work # mkdir projects
+(venv) root@deepnote:~/work # mkdir -p projects/fronted projects/backend projects/database
+(venv) root@deepnote:~/work # find projects -type d
+projects
+projects/backend
+projects/database
+projects/fronted
+(venv) root@deepnote:~/work # rm -r projects
+(venv) root@deepnote:~/work # 
