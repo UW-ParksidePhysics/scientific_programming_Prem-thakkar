@@ -1,2 +1,3 @@
 # Concepts
-* 
+* Parameter
+* Function
