@@ -1,1 +1,22 @@
-
+(venv) root@deepnote:~/work # cd scientific_programming_Prem_thakkar/
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar # touch ball py
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar # touch ball.py
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar # find . -name"ball.py"
+find: unknown predicate `-nameball.py'
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar # cd python/3d_visulization/
+bash: cd: python/3d_visulization/: No such file or directory
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar # ls
+ball  ball.py  command-line  lesson4-practice  Project  py  python  README.md  shopping_list.txt
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar # cd python/3d_visualization/
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/python/3d_visualization # ls
+ball.py              birthday_vector.py  projectile_motion_comparison.py  two_balls_cross.py
+birthday_station.py  CONCEPTS.md         two_balls_bounce.py
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/python/3d_visualization # grep "vpython" ball.py
+(venv) root@deepnote:~/work/scientific_programming_Prem_thakkar/python/3d_visualization # cd /work/scientific_programming_Prem_thakkar/
+(venv) root@deepnote:/work/scientific_programming_Prem_thakkar # cd python 
+(venv) root@deepnote:/work/scientific_programming_Prem_thakkar/python # touch test1.py
+(venv) root@deepnote:/work/scientific_programming_Prem_thakkar/python # touch test2.py
+(venv) root@deepnote:/work/scientific_programming_Prem_thakkar/python # echo "import numpy as np" > test1.py^
+C
+(venv) root@deepnote:/work/scientific_programming_Prem_thakkar/python # ^C
+(venv) root@deepnote:/work/scientific_programming_Prem_thakkar/python # 
