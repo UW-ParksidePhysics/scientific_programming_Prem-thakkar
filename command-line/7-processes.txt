@@ -1,1 +1,34 @@
+(venv) root@deepnote:~/work # vi sample.txt & [1] 111
+[1] 133
+bash: [1]: command not found
+(venv) root@deepnote:~/work # ps
+    PID TTY          TIME CMD
+    108 pts/0    00:00:00 bash
+    133 pts/0    00:00:00 vi
+    139 pts/0    00:00:00 ps
 
+[1]+  Stopped                 vi sample.txt
+(venv) root@deepnote:~/work # kill 111
+bash: kill: (111) - No such process
+(venv) root@deepnote:~/work # kill[PID]
+bash: kill[PID]: command not found
+(venv) root@deepnote:~/work # kill 111
+bash: kill: (111) - No such process
+(venv) root@deepnote:~/work # jobs
+[1]+  Stopped                 vi sample.txt
+(venv) root@deepnote:~/work # sleep 100 & [2] 121
+[2] 189
+bash: [2]: command not found
+(venv) root@deepnote:~/work # jobs
+[1]+  Stopped                 vi sample.txt
+[2]-  Running                 sleep 100 &
+(venv) root@deepnote:~/work # ping google.com & [1] 177
+[3] 218
+bash: ping: command not found
+bash: [1]: command not found
+[3]-  Exit 127                ping google.com
+(venv) root@deepnote:~/work # bash: ping: command not found ps
+bash: bash:: command not found
+[2]-  Done                    sleep 100
+(venv) root@deepnote:~/work # ^C
+(venv) root@deepnote:~/work # ^C

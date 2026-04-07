@@ -1,2 +1,3 @@
 # Concepts
-* 
+* text editor 
+directory

@@ -1,17 +1,17 @@
-Partner:
+Partner: Prem
 
 What Went Well
 ---
 
 
-What Would Make Next Time 1% Better
+What Would Make Next Time 1% Better: 
 ---
-* Focus:
+* Focus: good
 
-* Communication:
+* Communication: good
 
-* Pacing:
+* Pacing: great
 
 * Division of responsibility
 
-* Code quality:
+* Code quality: good
