@@ -1,1 +1,60 @@
-
+(venv) root@deepnote:~/work # echo "welcome to Lesson 8!" > greeting.txt
+(venv) root@deepnote:~/work # echo "Let's learn about redirection." >> greeting.txt
+(venv) root@deepnote:~/work # cat greeting.txt
+welcome to Lesson 8!
+Let's learn about redirection.
+(venv) root@deepnote:~/work # rm greeting.txt
+(venv) root@deepnote:~/work # echo "File 1" > list.txt
+(venv) root@deepnote:~/work # echo "File 2" >> list.txt
+(venv) root@deepnote:~/work # rm list.txt
+(venv) root@deepnote:~/work # echo "Lorem Ipsum text!" > data.text
+(venv) root@deepnote:~/work # wc -w data.txt > word_count.txt
+wc: data.txt: No such file or directory
+(venv) root@deepnote:~/work # touch word_count.txt
+(venv) root@deepnote:~/work # wc -w data.txt > word_count.txt
+wc: data.txt: No such file or directory
+(venv) root@deepnote:~/work # echo "Lorem Ipsum tex!" > data.text
+(venv) root@deepnote:~/work # wc -w data.txt > word_count.txt
+wc: data.txt: No such file or directory
+(venv) root@deepnote:~/work # lds
+bash: lds: command not found
+(venv) root@deepnote:~/work # ls
+data.text    lesson4-practice  scientific_programming_Prem_thakkar  untitled        word_count.txt
+example.txt  notes.txt         script.sh                            wavepacket.gif
+(venv) root@deepnote:~/work # 
+(venv) root@deepnote:~/work # 
+(venv) root@deepnote:~/work # wc -w data.txt > word_count.txt
+wc: data.txt: No such file or directory
+(venv) root@deepnote:~/work # echo "Lorem Ipsum text." > daa.txt
+(venv) root@deepnote:~/work # echo "Lorem Ipsum text." > data.txt
+(venv) root@deepnote:~/work # ls
+daa.txt    example.txt       scientific_programming_Prem_thakkar  wavepacket.gif
+data.text  lesson4-practice  script.sh                            word_count.txt
+data.txt   notes.txt         untitled
+(venv) root@deepnote:~/work # wc -w data.txt
+3 data.txt
+(venv) root@deepnote:~/work # wc -w data.txt > word_count.txt
+(venv) root@deepnote:~/work # cat word_count.txt
+3 data.txt
+(venv) root@deepnote:~/work # ls
+daa.txt    example.txt       scientific_programming_Prem_thakkar  wavepacket.gif
+data.text  lesson4-practice  script.sh                            word_count.txt
+data.txt   notes.txt         untitled
+(venv) root@deepnote:~/work # ls > directory_list.txt
+(venv) root@deepnote:~/work # date >> directory_list.txt
+(venv) root@deepnote:~/work # rm data.txt, word_count.txt, directory_list.txt
+rm: cannot remove 'data.txt,': No such file or directory
+rm: cannot remove 'word_count.txt,': No such file or directory
+(venv) root@deepnote:~/work # rm data.txt word_count.txt directory_list.txt
+rm: cannot remove 'directory_list.txt': No such file or directory
+(venv) root@deepnote:~/work # 
+(venv) root@deepnote:~/work # rm data.txt, word_count.txt, and directory_list.txt
+rm: cannot remove 'data.txt,': No such file or directory
+rm: cannot remove 'word_count.txt,': No such file or directory
+rm: cannot remove 'and': No such file or directory
+rm: cannot remove 'directory_list.txt': No such file or directory
+(venv) root@deepnote:~/work # rm -f data.txt, word_count.txt, directory_list.txt
+(venv) root@deepnote:~/work # ls
+daa.txt    example.txt       notes.txt                            script.sh  wavepacket.gif
+data.text  lesson4-practice  scientific_programming_Prem_thakkar  untitled
+(venv) root@deepnote:~/work # 
