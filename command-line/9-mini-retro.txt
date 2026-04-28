@@ -1,17 +1,17 @@
-Partner:
+Partner: Prem
 
 What Went Well
 ---
-
+terminal work
 
 What Would Make Next Time 1% Better
 ---
-* Focus:
+* Focus:10/10
 
-* Communication:
+* Communication: smoothly 
 
 * Pacing:
 
-* Division of responsibility
+* Division of responsibility:
 
-* Code quality:
+* Code quality: work

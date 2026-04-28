@@ -1,1 +1,17 @@
-
+(venv) root@deepnote:~/work # ls
+calculate_pythagorean_triples.c  scientific_programming_Prem_thakkar
+daa.txt                          script.sh
+data.text                        solar_seasonal_parkside.png
+example.txt                      untitled
+lesson4-practice                 wavepacket.gif
+notes.txt
+(venv) root@deepnote:~/work # python test.py
+python: can't open file '/datasets/_deepnote_work/test.py': [Errno 2] No such file or directory
+(venv) root@deepnote:~/work # cat !$
+cat test.py
+cat: test.py: No such file or directory
+(venv) root@deepnote:~/work # python !$
+python test.py
+python: can't open file '/datasets/_deepnote_work/test.py': [Errno 2] No such file or directory
+(venv) root@deepnote:~/work # ^C
+(venv) root@deepnote:~/work #
