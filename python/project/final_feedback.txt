@@ -1,0 +1,4 @@
+- Be clear on what is data and what is not data (what is model) 
+- Plot day length on energy versus month
+- Add an annotation to the largest cloud cover point
+- Plot 2024 & 2026 data on cloud cover vs peak solar irradiance
